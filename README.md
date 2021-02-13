@@ -1,2 +1,28 @@
-# Oracalize-WebApp
- simple smart contract with oracalize and webapp
+## An Oraclize Example ÐApp
+#### Screenshot
+
+![zever](./screenshot.png)
+
+#### About
+This is a project I made using [Oraclize](http://www.oraclize.it/).
+
+It's a simple HTML/JavaScript front-end that communicates with a [Solidity](https://solidity.readthedocs.io/en/v0.4.23/) Smart Contract to fetch the ETH/USD price from the [Coinbase](https://www.coinbase.com/) developers API. 
+
+It uses [Truffle](http://truffleframework.com/), [truffle-webpack](http://truffleframework.com/boxes/webpack) and [ethereum-bridge](https://github.com/oraclize/ethereum-bridge).
+
+*A nice and simple example on how to use Oraclize and Solidity Events to create ÐApps.*
+
+Reference to [this Medium article](https://medium.com/@WWWillems).
+
+#### Tools used
+- Solidity
+- Truffle, truffle-webpack
+- [ethereum-bridge](https://github.com/oraclize/ethereum-bridge)
+
+#### How to start?
+1. Clone this repository
+2. Run `npm install`
+3. Run `npm run dev` to start Truffle server
+4. Go to `http://localhost:8080` to see the ÐApp.
+
+ 
